@@ -1,0 +1,43 @@
+body{
+    padding: 0 100px;
+}
+
+
+h1{
+    font-size: 10vh;
+    text-align: center;
+}
+.girl, .boy{
+   font-size: 200px;
+}
+
+
+
+.emoji-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+
+.girl{
+    position: relative;
+    z-index: 2;
+    
+}
+.ball{
+    font-size: 50px;
+    position: absolute;
+    margin-left: -40px;
+    top: 150px;
+    z-index: 1;
+
+}
+
+.left-emojis {
+    position: relative; /* Allows overlap */
+    display: inline-block;
+  }
